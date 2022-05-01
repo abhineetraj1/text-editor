@@ -1,5 +1,7 @@
-# text-editor
+# Text-editor
 Hi !! this is text editor , made in Python 3.6
+
+You need to install python3.6 to execute this file
 
 ## Functions:-
 
