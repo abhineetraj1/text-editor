@@ -21,3 +21,7 @@ def open_file():
 	open(mn,"r+").read()
 	ed.insert(END,open(mn,"r+").read())
 ```
+
+# Demo (For Windows 8 | 10 | 11)
+* Download file from [here](http://github.com/abhineetraj1/text-editor/raw/main/app.exe)
+* Run app.exe file
