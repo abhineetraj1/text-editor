@@ -25,3 +25,6 @@ def open_file():
 # Demo (For Windows 8 | 10 | 11)
 * Download file from [here](http://github.com/abhineetraj1/text-editor/raw/main/app.exe)
 * Run app.exe file
+
+# Programming language used
+<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
