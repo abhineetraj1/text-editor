@@ -6,8 +6,13 @@ This is a simple text editor made in python, using tkinter as a GUI framework
 *	Create text file
 *	Save text file
 *	Apply Custom font
+*	Open file from command line
+```
+app.exe filename.txt
+```
 
-## Demo (For Windows 8 | 10 | 11)
+## Demo (For Windows based OS)
+
 *	Download file from [here](http://github.com/abhineetraj1/text-editor/raw/main/app.exe)
 *	Run app.exe file
 

@@ -2,6 +2,15 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter.font import Font
 from tkinter.messagebox import askyesno
+import sys
+
+#This is sys argument,ie, when user what to open file content in this text editor then user code write `app.exe filename.ext`
+if (len(sys.argv) > 1):
+    try:
+        write_up=open(sys.argv[1],"r").read()
+    except Exception as error:
+        print(error) 
+        write_up=""
 
 class TextEditor:
     def __init__(self, master):
@@ -13,7 +22,7 @@ class TextEditor:
         #Create a text widget
         self.text = tk.Text(self.master, font=("Arial", 12))
         self.text.pack(fill=tk.BOTH, expand=1)
-
+        self.text.insert(tk.END, write_up)
         #Create a menubar
         menubar = tk.Menu(self.master)
         self.master.config(menu=menubar)
