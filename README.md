@@ -13,7 +13,7 @@ app.exe filename.txt
 
 ## Demo (For Windows based OS)
 
-*	Download file from [here](http://github.com/abhineetraj1/text-editor/raw/main/app.exe)
+*	Download app.exe file from here.
 *	Run app.exe file
 
 ## Programming language used
